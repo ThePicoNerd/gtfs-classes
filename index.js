@@ -1,7 +1,7 @@
 class Coordinate {
   constructor({ lat, lon }) {
-    this.lat = lat;
-    this.lon = lon;
+    this.lat = parseFloat(lat);
+    this.lon = parseFloat(lon);
   }
 }
 
@@ -62,8 +62,8 @@ class Stop {
     this.stop_code = stop_code;
     this.stop_name = stop_name;
     this.stop_desc = stop_desc;
-    this.stop_lat = stop_lat;
-    this.stop_lon = stop_lon;
+    this.stop_lat = parseFloat(stop_lat);
+    this.stop_lon = parseFloat(stop_lon);
     this.zone_id = zone_id;
     this.stop_url = stop_url;
     this.location_type = location_type;
