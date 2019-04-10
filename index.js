@@ -316,7 +316,7 @@ exports.keys = keys;
  * @param {string} filename
  */
 function getFileKeys(filename) {
-  let file = new (getClass(filename))({});
+  let file = new (files[filename])({});
   return Object.keys(file.json);
 }
 
