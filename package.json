@@ -1,0 +1,17 @@
+{
+  "name": "gtfs-classes",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThePicoNerd/gtfs-classes.git"
+  },
+  "keywords": [],
+  "author": "Åke Amcoff <ake.amcoff@lynx.agency>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThePicoNerd/gtfs-classes/issues"
+  },
+  "homepage": "https://github.com/ThePicoNerd/gtfs-classes#readme"
+}
